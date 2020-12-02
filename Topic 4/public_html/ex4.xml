@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE parts SYSTEM "ex4.dtd">
+<parts>
+	<part>
+		<name>bicycle</name>
+		<subpartinfo>
+			<part>
+				<name>wheel</name>
+				<subpartinfo>
+					<part>
+						<name>rim</name>
+					</part>
+					<qty>1</qty>
+				</subpartinfo>
+				<subpartinfo>
+					<part>
+						<name>spokes</name>
+					</part>
+					<qty>40</qty>
+				</subpartinfo>
+				<subpartinfo>
+					<part>
+						<name>tire</name>
+					</part>
+					<qty>1</qty>
+				</subpartinfo>
+			</part>
+			<qty>2</qty>
+		</subpartinfo>
+		<subpartinfo>
+			<part>
+				<name>brake</name>
+			</part>
+			<qty>2</qty>
+		</subpartinfo>
+		<subpartinfo>
+			<part>
+				<name>gear</name>
+			</part>
+			<qty>3</qty>
+		</subpartinfo>
+		<subpartinfo>
+			<part>
+				<name>frame</name>
+			</part>
+			<qty>1</qty>
+		</subpartinfo>
+	</part>
+</parts>

@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 28, 2019, 1:08:35 PM
+    Author     : Don OzOn
+*/
+letter{
+    margin:10px 300px 10px 300px;
+    border: 1px solid;
+    height: 680px;
+    font-family: Fixed, monospace;
+    font-size: 15px;
+}
+example{
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left;
+    width: 180px;
+    height: 120px;
+    font-size: 35px;
+    padding-top :40px;
+    text-align:center;
+    font-weight: bold;
+    background-color:#00FF00;
+    transform: rotate(320deg);
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+to{
+    display: inline-block;
+    float: right;
+    color: black;
+    width: 250px;
+    height: 50px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-right: 5px;
+    text-align: left;
+}
+name{
+    display: block;
+}
+address1{
+    display: block;
+}
+address2{
+    display: block;
+}
+from{
+    margin-left: -190px;
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+    text-align: left;
+    color: black;
+    margin-top: 230px;
+    font-weight: bold;
+}
+salutation{
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+#pa1{
+    display: block;
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+}
+#pa2{
+    display: block;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 30px;
+
+}
+#pa3{
+    display: block;
+    width:100px;
+    height: 60px;
+    text-align: center;
+    margin-left: 170px;
+    margin-top: -90px;
+    margin-bottom: 30px;
+    white-space: pre-line;
+    }
+
+#pa4{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+closing{
+    display: block;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+signature{
+    display: block;
+    margin-left: 40px;  
+}

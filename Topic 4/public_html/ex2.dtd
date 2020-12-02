@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/ex2.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE bank SYSTEM "ex2.dtd">
+
+    <bank>
+    ...
+    </bank>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT bank (banks)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT banks (account|customer|depositor)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT account EMPTY>
+<!ATTLIST account
+    account-number CDATA #IMPLIED
+    branch-name CDATA #IMPLIED
+    balance CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT customer EMPTY>
+<!ATTLIST customer
+    customer-name CDATA #IMPLIED
+    customer-street CDATA #IMPLIED
+    customer-city CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT depositor EMPTY>
+<!ATTLIST depositor
+    account-number CDATA #IMPLIED
+    customer-name CDATA #IMPLIED
+  >

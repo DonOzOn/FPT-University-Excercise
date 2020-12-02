@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<Student>
+    <StudentData>
+        <sid>50</sid>
+        <fname>Hoàng</fname>
+        <lname>Lương Đức</lname>
+        <Y_of_B>1984</Y_of_B>
+    </StudentData>
+    <StudentData>
+        <sid>23</sid>
+        <fname>Hùng</fname>
+        <lname>Nguyễn Mạnh</lname>
+        <Y_of_B>1983</Y_of_B>
+    </StudentData>
+</Student>

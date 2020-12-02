@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Books>	
+	<Book id="0001" Category="novel">
+		<Name>Harry Potter and the philosopher stone</Name>
+		<Author>J.K Rowling</Author>
+		<ISBN>978-3-16-148410-0</ISBN>
+		<Price>18.5</Price>
+		<Sold>21</Sold>
+		<Stock>17</Stock>
+	</Book>
+	
+	<Book id="0002" Category="Programming">
+		<Name>XML in a Nutshell, Third Edition</Name>
+		<Author>W. Scott Means</Author>
+		<ISBN>978-0-59-600764-5</ISBN>
+		<Price>31.8</Price>
+		<Sold>84</Sold>
+		<Stock>147</Stock>
+	</Book>
+	
+	<Book id="0003" Category="Programming">
+		<Name>Core Java Volume I-Fundamentals</Name>
+		<Author>Cay S. Horstmann</Author>
+		<ISBN>978-0137081899</ISBN>
+		<Price>11.96</Price>
+		<Sold>37</Sold>
+		<Stock>15</Stock>
+	</Book>
+</Books>	

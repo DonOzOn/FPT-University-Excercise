@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Atom.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE Atom SYSTEM "Atom.dtd">
+
+    <Atom>
+    ...
+    </Atom>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Atom (Atoms)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Atoms (Status|Name|Symbol|AtomicNumber|AtomicWeight|BoilingPoint
+ | unit|MeltingPoint| unit2|Density| unit3)*>
+<!ATTLIST Atoms
+    id CDATA #IMPLIED
+    category CDATA #IMPLIED
+  >
+<!ATTLIST Atoms id ID #REQUIRED> 
+<!ATTLIST Atoms category  (Solid|Gas|Liquid) #REQUIRED>
+<!ATTLIST unit  flag  (K|C|F) #REQUIRED>
+<!ATTLIST unit2 flag  (K|C|F) #REQUIRED>
+<!ATTLIST unit3 flag  (grcm3 | kgm3) #REQUIRED>
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Status (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Name (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Symbol (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT AtomicNumber (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT AtomicWeight (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT BoilingPoint (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT MeltingPoint (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Density (#PCDATA)>
+<!ELEMENT unit (#PCDATA)>
+<!ELEMENT unit2 (#PCDATA)>
+<!ELEMENT unit3 (#PCDATA)>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bookstore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="Bookstore.xsd">
+    <Book id="1">
+        <Name>Lao Hac</Name>
+        <Author>Nam Cao</Author>
+        <Price>100</Price>
+    </Book>
+    <Book id="2">
+        <Name>Tat Den</Name>
+        <Author>Ngo Tat To</Author>
+        <Price>150</Price>
+    </Book>
+</Bookstore>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE professors SYSTEM "Problem2.dtd">
+<professors>
+    <professor id="pr001" name = "Ha">
+        <course>
+            <title>MAD</title>
+            <hours>
+                <exercises>Ma tran</exercises>
+                <lectures>Toan cao cap</lectures>
+            </hours>
+            <credits>3</credits>
+        </course>
+        <private>
+            <address>Ha Noi ,Viet Nam</address>
+            <phonenumber>01223203232</phonenumber>
+        </private>
+    </professor>
+    <professor id="pr002" name = "Don">
+        <course>
+            <title>MAE</title>
+            <hours>
+                <exercises>Toan co ban</exercises>
+                <lectures>Toan</lectures>
+            </hours>
+            <credits>3</credits>
+        </course>
+        <private>
+            <address>Da Nang ,Viet Nam</address>
+            <phonenumber>01666203232</phonenumber>
+        </private>
+    </professor>
+    <professor id="pr003" name = "Hung">
+        <course>
+            <title>DBI</title>
+            <hours>
+                <exercises>Truy van du lieu</exercises>
+                <lectures>Co so du lieu</lectures>
+            </hours>
+            <credits>3</credits>
+        </course>
+        <private>
+            <address>Da Nang ,Viet Nam</address>
+            <phonenumber>01666203114</phonenumber>
+        </private>
+    </professor>
+    <professor id="pr004" name = "Trang">
+        <course>
+            <title>Vovinam</title>
+            <hours>
+                <exercises>Phong than</exercises>
+                <lectures>Vo thuat</lectures>
+            </hours>
+            <credits>1</credits>
+        </course>
+        <private>
+            <address>Ha Noi ,Viet Nam</address>
+            <phonenumber>01226203114</phonenumber>
+        </private>
+    </professor>
+    <professor id="pr005" name = "Nhung">
+        <course>
+            <title>CEA</title>
+            <hours>
+                <exercises>Organization and Architecture</exercises>
+                <lectures>Computer Organization and Architecture</lectures>
+            </hours>
+            <credits>3</credits>
+        </course>
+        <private>
+            <address>Ha Noi ,Viet Nam</address>
+            <phonenumber>01123303122</phonenumber>
+        </private>
+    </professor>
+    <professor id="pr006" name = "Huyen">
+        <course>
+            <title>CSI101</title>
+            <hours>
+                <exercises>Computer Science</exercises>
+                <lectures>Connecting to Computer Science</lectures>
+            </hours>
+            <credits>3</credits>
+        </course>
+        <private>
+            <address>Ho Chi Minh ,Viet Nam</address>
+            <phonenumber>016632035622</phonenumber>
+        </private>
+    </professor>
+    <professor id="pr007" name = "Hiep">
+        <course>
+            <title>PRF192</title>
+            <hours>
+                <exercises>C programing</exercises>
+                <lectures>Programming Fundamentals</lectures>
+            </hours>
+            <credits>3</credits>
+        </course>
+        <private>
+            <address>Hue ,Viet Nam</address>
+            <phonenumber>0133603266</phonenumber>
+        </private>
+    </professor>
+    <professor id="pr008" name = "Truc">
+        <course>
+            <title>PRO201</title>
+            <hours>
+                <exercises>Create a web with HTML , CSS</exercises>
+                <lectures>Front-end Web Development</lectures>
+            </hours>
+            <credits>3</credits>
+        </course>
+        <private>
+            <address>Hai Phong ,Viet Nam</address>
+            <phonenumber>09036203114</phonenumber>
+        </private>
+    </professor>
+    <professor id="pr009" name = "Xuan">
+        <course>
+            <title>PRJ311</title>
+            <hours>
+                <exercises>Create calculator desktop app </exercises>
+                <lectures>Desktop Java Applications</lectures>
+            </hours>
+            <credits>3</credits>
+        </course>
+        <private>
+            <address>Ha Noi ,Viet Nam</address>
+            <phonenumber>01626203167</phonenumber>
+        </private>
+    </professor>
+    <professor id="pr010" name = "Giang">
+        <course>
+            <title>SSG101</title>
+            <hours>
+                <exercises>Make project to earn money</exercises>
+                <lectures>Working in Group Skills</lectures>
+            </hours>
+            <credits>1</credits>
+        </course>
+        <private>
+            <address>Thanh hoa ,Viet Nam</address>
+            <phonenumber>0166620398</phonenumber>
+        </private>
+    </professor>
+</professors>

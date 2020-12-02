@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2019, 2:44:01 PM
+    Author     : Don OzOn
+*/
+h1{
+    font-size : 200% ; 
+    font-weight:700 ;
+}
+body{
+    background-color: whitesmoke;
+}
+.contain-header{
+    background-color: steelblue;
+    padding:5px 0px 5px 5px;
+    color: white;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+.name{
+    font-weight: 700;
+}
+.descript{
+}
+.content{
+    line-height: 5px;
+    margin-left: 20px;
+}
+.calo{
+    font-style: italic;
+}

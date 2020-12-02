@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="employees">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="employee" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:date" name="dob"/>
+              <xs:element type="xs:string" name="address"/>
+              <xs:element type="xs:string" name="email"/>
+              <xs:element type="xs:int" name="phone_no"/>
+              <xs:element type="xs:string" name="place_of_work"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="employee_no" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

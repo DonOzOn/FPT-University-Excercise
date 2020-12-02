@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="component">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="operation"/>
+                <xs:element ref="event"/>
+            </xs:sequence>
+            <xs:attribute name="binding" use="required" type="xs:string"/>
+            <xs:attribute name="type" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="operation">
+        <xs:complexType mixed="true">
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="input"/>
+            </xs:sequence>
+            <xs:attribute name="name" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="input">
+        <xs:complexType>
+            <xs:attribute name="type" use="required" type="xs:string"/>
+            <xs:attribute name="value" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:float">
+                        <xs:minInclusive value="0"/>
+                        <xs:maxInclusive value="1000"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="event">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="output"/>
+            </xs:sequence>
+            <xs:attribute name="name" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="output">
+        <xs:complexType>
+            <xs:attribute name="type" use="required" type="xs:string"/>
+            <xs:attribute name="value" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="0"/>
+                        <xs:maxInclusive value="1000"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

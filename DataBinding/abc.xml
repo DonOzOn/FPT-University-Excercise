@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Bookstore>
+    <Book id="1">
+        <Name>Lao Hac</Name>
+        <Author>Nam Cao</Author>
+        <Price>100.0</Price>
+    </Book>
+    <Book id="2">
+        <Name>Tat Den</Name>
+        <Author>Ngo Tat To</Author>
+        <Price>150.0</Price>
+    </Book>
+    <Book id="3">
+        <Name>Song</Name>
+        <Author>ABC</Author>
+        <Price>124.0</Price>
+    </Book>
+</Bookstore>

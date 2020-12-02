@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE Store SYSTEM "Store.dtd">
+<Store>
+    <Stores sid = "s282">
+        <Name>Wiz</Name>
+        <Phone>555-1234</Phone>
+        <Products pid = "233">
+            <Name>gizmo plus</Name>
+            <Price>99.99</Price>
+            <Description>more features</Description>
+            <Sell>25%</Sell>
+        </Products>
+    </Stores>
+    <Stores sid = "s521">
+        <Name>Econo-Wiz</Name>
+        <Phone>555-6543</Phone>
+        <Products pid = "323">
+            <Name>gizmo</Name>
+            <Price>22.99</Price>
+            <Description>great</Description>
+            <Sell>10%</Sell>
+        </Products>
+        <Products pid = "312">
+            <Name>gadget</Name>
+            <Price>59.99</Price>
+            <Description>good value</Description>
+            <Sell>15%</Sell>
+        </Products>
+    </Stores>
+</Store>

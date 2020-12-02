@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE Atom SYSTEM "Atom.dtd">
+<Atom>
+    <Atoms id = "AT1" category = "Gas">
+        <Status>Gas</Status>
+        <Name>Oxygen</Name>
+        <Symbol>Oxygen = O</Symbol>
+        <AtomicNumber>O = 2</AtomicNumber>
+        <AtomicWeight>O = 15,9994</AtomicWeight>
+        <BoilingPoint>O = 90,20</BoilingPoint>
+        <unit flag = "K" > K</unit>
+        <MeltingPoint>O = 6,82</MeltingPoint>
+        <unit2 flag = "K">K</unit2>
+        <Density>O = 1,429</Density>
+        <unit3 flag = "grcm3">grcm3</unit3>
+    </Atoms>
+    <Atoms id = "AT2" category = "Gas">
+        <Status>Gas</Status>
+        <Name>Nitro</Name>
+        <Symbol>Nitro = N</Symbol>
+        <AtomicNumber>N = 2</AtomicNumber>
+        <AtomicWeight>N = 14,0067</AtomicWeight>
+        <BoilingPoint>N = 77,36</BoilingPoint>
+        <unit flag = "K" >K</unit>
+        <MeltingPoint>N = 5,56</MeltingPoint>
+        <unit2 flag = "K">K</unit2>
+        <Density>N = 1,251</Density>
+        <unit3 flag = "grcm3">grcm3</unit3>
+    </Atoms  >
+    <Atoms id = "AT3" category = "Gas">
+        <Status>Gas</Status>
+        <Name>Hydrogen</Name>
+        <Symbol>Hydrogen = H</Symbol>
+        <AtomicNumber>H = 1</AtomicNumber>
+        <AtomicWeight>H = 1.00794</AtomicWeight>
+        <BoilingPoint>H = 20.28</BoilingPoint>
+        <unit flag = "K" >K</unit>
+        <MeltingPoint>H = 13.81</MeltingPoint>
+        <unit2 flag = "K">K</unit2>
+        <Density>H = 0.0899</Density>
+        <unit3 flag = "grcm3">grcm3</unit3>
+    </Atoms>
+</Atom>

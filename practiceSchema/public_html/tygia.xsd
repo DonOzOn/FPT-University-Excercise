@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="tygia">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name ="tygias" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <!-- validate kihieu-->
+                        <xs:sequence>
+                            <xs:element name="kihieu">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="AUD"/>
+                                        <xs:enumeration value="CAD"/>
+                                        <xs:enumeration value="CHF"/>
+                                        <xs:enumeration value="DKK"/>
+                                        <xs:enumeration value="EUR"/>
+                                        <xs:enumeration value="GBP"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <!-- validate ten ngoai te-->
+                            <xs:element name="tenngoaite">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="AUST.DOLLAR"/>
+                                        <xs:enumeration value="CANADIAN DOLLAR"/>
+                                        <xs:enumeration value="SWISS FRANCE"/>
+                                        <xs:enumeration value="DANISH KRONE"/>
+                                        <xs:enumeration value="EURO"/>
+                                        <xs:enumeration value="BRITISH POUND"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <!-- validate mua vao-->
+                            <xs:element name="muavao">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[0-9]+(,[0-9]+)+"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                                
+                            </xs:element>
+                            <xs:element name="chuyenkhoan" type="xs:string"/>
+                            <!-- validate ban ra-->
+                            <xs:element name="banra">
+                                         <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[0-9]+(,[0-9]+)+"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                
+            </xs:sequence>
+            
+        </xs:complexType>
+        
+    </xs:element>
+</xs:schema>

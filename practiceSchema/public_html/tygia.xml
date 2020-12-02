@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<?xml-stylesheet type="text/css href="tygia.css"?>
+<tygia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="tygia.xsd">
+    <tygias>
+        <kihieu>AUD</kihieu>
+        <tenngoaite>AUST.DOLLAR</tenngoaite>
+        <muavao>13,789</muavao>
+        <chuyenkhoan>13,872</chuyenkhoan>
+        <banra>14,103</banra>
+    </tygias>
+    <tygias>
+        <kihieu>CAD</kihieu>
+        <tenngoaite>CANADIAN DOLLAR</tenngoaite>
+        <muavao>15,738</muavao>
+        <chuyenkhoan>15,811.07</chuyenkhoan>
+        <banra>16,112</banra>
+    </tygias>
+    <tygias>
+        <kihieu>CHF</kihieu>
+        <tenngoaite>SWISS FRANCE</tenngoaite>
+        <muavao>16,323</muavao>
+        <chuyenkhoan>16,438.91</chuyenkhoan>
+        <banra>16,711</banra>
+    </tygias>
+    
+</tygia>

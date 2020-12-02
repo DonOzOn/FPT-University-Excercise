@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<Books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Book.xsd" >
+	
+	<Book Category="novel"> Harry Potter and the philosopher stone
+		<Name>Harry Potter and the philosopher stone</Name>
+		<Author>J.K Rowling</Author>
+		<ISBN>978-3-16-148410-0</ISBN>
+		<Price>18.5</Price>
+	</Book>
+	
+	<Book Category="Programming">
+		<Name>XML in a Nutshell, Third Edition</Name>
+		<Author>W. Scott Means</Author>
+		<ISBN>978-0-59-600764-5</ISBN>
+		<Price>31.8</Price>
+	</Book>
+	
+	<Book Category="Science">
+		<Name>A Brief History of Time</Name>
+		<Author>Stephen Hawking</Author>
+		<ISBN>978-0-55-338016-3</ISBN>
+		<Price>16.25</Price>
+	</Book>
+	
+	
+</Books>

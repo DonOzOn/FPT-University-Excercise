@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<employees>
+    <employee employee_no="E0101">
+        <name>Nguyen Tan Thanh</name>
+        <dob>1988-02-07</dob>
+        <address>23 Vo Thi Sau, Hai Ba Trung, Ha Noi</address>
+        <email>thanhnt@fpt.edu.vn</email>
+        <phone_no>0986323220</phone_no>
+        <place_of_work>Ha Noi</place_of_work>
+    </employee>
+    <employee employee_no="E0102">
+        <name>Nguyen Hung Dung</name>
+        <dob>1983-02-07</dob>
+        <address>190 Cau Dien, Tu Liem, Ha Noi</address>
+        <email>dungnh@fpt.edu.vn</email>
+        <phone_no>0983345229</phone_no>
+        <place_of_work>Ha Noi</place_of_work>
+    </employee>
+    <employee employee_no="04">
+        <name>don ozon</name>
+        <dob>1111-11-22</dob>
+        <address>ha tinh</address>
+        <email>abc@abc.com</email>
+        <phone_no>0964091660</phone_no>
+        <place_of_work>ádasdas</place_of_work>
+    </employee>
+    <employee employee_no="05">
+        <name>ha van A</name>
+        <dob>1111-11-22</dob>
+        <address>Da Nang</address>
+        <email>bc@123.com</email>
+        <phone_no>0364091660</phone_no>
+        <place_of_work>sdfsdf</place_of_work>
+    </employee>
+</employees>
